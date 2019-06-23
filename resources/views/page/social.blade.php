@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head>
-       <title>About Us</title>
+       <title>Social</title>
    </head>
    <body>
 
@@ -9,7 +9,7 @@
          <div class="container">
             <div class="box">
                <div id="branding">
-                  <h3>Nuoroda į "About Us" puslapį</h3>
+                  <h3>Nuoroda į "Social" puslapį</h3>
                </div>
                   <p>
                         We manufacture and sell the highest-quality<br>
@@ -24,10 +24,10 @@
             </div>
             <hr>
             
-            <a href="{{route('home')}}">
+            {{-- <a href="{{route('home')}}">
                <img class="logo" src="{{asset('img/kate.png')}}" alt="Logo" style="object-fit: contain; height: 100px;">
             </a>
-         </div>
+         </div> --}}
 
 
 

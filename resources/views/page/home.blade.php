@@ -39,13 +39,13 @@
                      </li>
                                     <!-- NAVIGACIJOS MENIU - SOCIAL -->
                      <li>
-                        <a href="#" img src="{{asset('services.html')}}">
+                     <a href="{{route('social')}}" img src="{{asset('services.html')}}">
                            SOCIAL
                         </a>
                      </li>
                                     <!-- NAVIGACIJOS MENIU - CONTACT -->
                      <li>
-                        <a href="#" ing src="{{asset('services.html')}}">
+                     <a href="{{route('contact')}}" img src="{{asset('services.html')}}">
                            CONTACT
                         </a>
                      </li>
@@ -73,15 +73,15 @@
             <div class="row">
 
                 <div class="box">
-                    <a href="#">
-                       <img src="{{asset('img/Dennis_Kim.jpg')}}" alt="Kim">
-                     </a>
-                    <a href="#">
+                    <a href="{{route('DennisKim')}}">
+                        <img src="{{asset('img/Dennis_Kim.jpg')}}" alt="Kim">
+
                         <h3>
                            Dennis Kim
                         </h3>
                     </a>
-                    <p>In the tumultuous business of cutting-in and attending to a whale, there is much running backwards and forwards among the crew.</p>
+                    <p>In the tumultuous business of cutting-in and attending to a whale,
+                        there is much running backwards and forwards among the crew.</p>
                 </div>
 
                 <div class="box">
@@ -170,10 +170,9 @@
                   <div class="showcase3-card">
                                            <!-- VARDAS, EMAIL'AS, MESSAGE IR ŽEMĖLAPIS -->
                      <form class="myForm">
-                        <input id="mrg" type="text" id="fname" name="firstname" placeholder="Full Name" style="height: 4.2857rem; width: 32.21rem;">
-                        <input type="email" id="lname" name="emailadresse" placeholder="contact@email.com">
-                        <textarea name="subject" placeholder="Message">
-                        </textarea>
+                        <input id="mrg" type="text" id="fullname" name="fullname" placeholder="Full Name" style="height: 4.2857rem; width: 32.21rem;">
+                        <input type="email" id="email" name="email" placeholder="contact@email.com">
+                        <textarea name="subject" placeholder="Message"></textarea>
                         <a class="send_btn" href="#">
                            <strong>
                               Send
@@ -271,6 +270,7 @@
                Copyright © 2015.All Right Reserved
             </p>
       </footer>
+      </div>
 </body>
 
 </html>

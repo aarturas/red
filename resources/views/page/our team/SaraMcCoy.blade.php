@@ -6,10 +6,12 @@
    <body>
 
       <header>
+         <h3>Nuoroda į "Sara McCoy" puslapį</h3>
+      </header>
+
          <div class="container">
             <div class="box">
                <div id="branding">
-                  <h3>Nuoroda į "About Us" puslapį</h3>
                </div>
                   <p>
                         We manufacture and sell the highest-quality<br>
@@ -25,13 +27,12 @@
             <hr>
             
             <a href="{{route('home')}}">
-               <img class="logo" src="{{asset('img/kate.png')}}" alt="Logo" style="object-fit: contain; height: 100px;">
+               <img class="logo" src="{{asset('img/Sara_McCoy.jpg')}}" alt="Logo" style="object-fit: contain; height: 100px;">
             </a>
          </div>
 
 
 
-   </header>
 
 </body>
 </html>
