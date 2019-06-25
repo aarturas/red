@@ -64,6 +64,7 @@
       </header>
 
       @yield('content')
+      
 
       <section class="showcase4">
 
