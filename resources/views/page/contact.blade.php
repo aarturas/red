@@ -37,9 +37,12 @@
 
       <a href="{{route('home')}}">
 
-      <img style="padding-left:0; padding-top:50px; max-width:100%; padding-bottom:20px;"
-      src="https://cdn.pixabay.com/photo/2019/06/20/11/53/thundercloud-4286930_960_720.jpg">
+         <img style="padding-left:0; padding-top:50px; max-width:100%; padding-bottom:20px;"
+            src="https://cdn.pixabay.com/photo/2019/06/20/11/53/thundercloud-4286930_960_720.jpg">
+
       </a>
+
+      <button type="submit"> Grįžti</button>
 
    </div>
 </div>

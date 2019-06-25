@@ -25,7 +25,16 @@
             <hr>
             
             <a href="{{route('home')}}">
-               <img class="logo" src="{{asset('img/kate.png')}}" alt="Logo" style="object-fit: contain; height: 100px;">
+
+                  <img style="padding-left:0; padding-top:50px; max-width:100%; padding-bottom:20px;"
+                     src="https://cdn.pixabay.com/photo/2015/05/06/16/31/andromeda-galaxy-755442_960_720.jpg">
+
+            </a>
+
+              
+                 <button type="submit">Grįžti</button>
+                  
+
             </a>
          </div>
 
@@ -35,3 +44,5 @@
 
 </body>
 </html>
+
+

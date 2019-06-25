@@ -4,6 +4,7 @@
        <title>Dennis Kim</title>
    </head>
    <body>
+
       <header>
          <h3>Nuoroda į "Dennis Kim" puslapį</h3>
       </header>
@@ -30,6 +31,7 @@
             
             <a href="{{route('home')}}">
                <img class="logo" src="{{asset('img/Dennis_Kim.jpg')}}" alt="Logo" style="object-fit: contain; height: 100px;">
+               <button type="submit"> Grįžti</button>
             </a>
          </div>
 
@@ -38,3 +40,6 @@
 
 </body>
 </html>
+
+
+

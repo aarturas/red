@@ -35,19 +35,19 @@ class PageController extends Controller
 
     public function DennisKim()
      {
-    return view('page.DennisKim');
+    return view('page.our team/DennisKim');
     }
 
 
     public function SaraMcCoy()
      {
-    return view('page.SaraMcCoy');
+    return view('page.our team/SaraMcCoy');
     }
 
 
     public function EmilyPorter()
      {
-    return view('page.EmilyPorter');
+    return view('page.our team.EmilyPorter');
     }
 
     
